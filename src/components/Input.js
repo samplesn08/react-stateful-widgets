@@ -47,7 +47,7 @@ export default function Input() {
     setInputValue(value)
   };
   const reset = () => {
-    setInputValue(inputValue==='')
+    setInputValue('')
   };
 
   const style = {
